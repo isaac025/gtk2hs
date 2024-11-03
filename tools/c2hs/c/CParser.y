@@ -96,7 +96,7 @@
 {-# OPTIONS_GHC -w #-}
 module CParser (parseC) where
 
-import Prelude    hiding (reverse)
+import Prelude
 import qualified Data.List as List
 
 import Position   (Position, Pos(..), nopos)
